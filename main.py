@@ -32,13 +32,13 @@ def shift_pixels(image_path):
     return shifted_image
 
 # Orijinal resim yolu
-image_path = "anahtar2.png"
+image_path = "orijinal resimler/anahtar2.png"
 
 # Piksel kaydırma işlemi
 shifted_image = shift_pixels(image_path)
 
 # Kaydırılmış resim kaydedilecek yol
-shifted_image_path = "kaydirilmis_resim.png"
+shifted_image_path = "degismis resimler/kaydirilmis_resim.png"
 shifted_image.save(shifted_image_path)
 
 print(f"Pikseller sağa kaydırıldı, resim kaydedildi: {shifted_image_path}")
